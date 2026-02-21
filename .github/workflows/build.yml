@@ -51,7 +51,7 @@ jobs:
       - name: Build release binaries
         run: |
           VERSION="${GITHUB_REF_NAME}"
-          BINARY="goddns"
+          BINARY="gcfd"
           LDFLAGS="-s -w -X main.version=${VERSION}"
 
           declare -A TARGETS=(

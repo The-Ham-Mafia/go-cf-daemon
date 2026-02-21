@@ -1,4 +1,4 @@
-module goddns
+module gcfd
 
 go 1.24.3
 
