@@ -1,0 +1,10 @@
+poll_interval = 300 # 5 minutes
+cloudflare_api_token = "your_cloudflare-token"
+ip_provider = "api.ipify.org"
+
+[[zone]]
+name = "example.com"
+records = [
+  { name = "@", proxied = true },
+  { name = "www", type="CNAME", target = "example.com", proxied = true },
+]
