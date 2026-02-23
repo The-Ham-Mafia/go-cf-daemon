@@ -1,6 +1,6 @@
 # go-cf-daemon
 
-A simple Go daemon for Cloudflare.
+A simple Go DDNS daemon for Cloudflare.
 
 ## Installation
 
